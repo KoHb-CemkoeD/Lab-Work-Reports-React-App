@@ -8,7 +8,6 @@ https://internet-labs-komarov.web.app/
 
 The deployment was done using **Firebase Hosting**.
 
-
 ---
 
 ## 📌 Overview
