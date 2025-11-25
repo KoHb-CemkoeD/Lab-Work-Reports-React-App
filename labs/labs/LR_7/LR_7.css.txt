@@ -1,0 +1,13 @@
+.labContentDiv * {
+  box-sizing: border-box;
+}
+
+.labContentDiv img{
+  border: 1px solid black;
+  padding: 2px;
+}
+
+#image-wiewer{
+  position: relative;
+  text-align: center;
+}
