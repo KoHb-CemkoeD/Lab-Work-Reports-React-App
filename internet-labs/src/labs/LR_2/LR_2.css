@@ -1,0 +1,54 @@
+.ul .opened, .ul .closed {
+  transition: 0.1s;
+}
+
+.ul .opened{
+  max-height: 100em;
+}
+.ul .closed{
+  max-height: 0em;
+  color: white;
+  size: 0em;
+  font-size: 0px;
+}
+
+.ul {    
+    cursor: pointer;
+    width: max-content;
+    padding-left: 10px;
+}
+
+.ul li {
+    list-style: square;
+    padding-left: 20px;
+    cursor: initial;
+    color: black;
+}
+
+.image-enter{
+  opacity: 0;
+  transform: translate(-65vw, 0);
+  transform: translate3d(-65vw, 0, 0);
+}
+
+.image-enter.image-enter-active{
+  opacity: 1;
+  transition: opacity 1s ease;
+  transform: translate(0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.image-exit{
+  opacity: 1;
+  transform: translate(0, 0);
+  transform: translate3d(0, 0, 0);
+  transition-property: transform, opacity;
+  transition-duration: 2000ms;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.0), linear;
+}
+
+.image-exit.image-exit-active{
+  opacity: 0;
+  transform: translate(65vw, 0);
+  transform: translate3d(65vw, 0, 0);
+}

@@ -1,0 +1,45 @@
+.inputs div{
+  height: 40px;
+  margin-block-start: 20px;
+}
+
+.inputs input[type=range]{
+  display: block;
+  position: static;
+  width: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+  -webkit-appearance: none;  
+  margin-block-start: 8.5px;
+}
+
+.inputs input[type=range]::-webkit-slider-runnable-track {  
+  height: 5.4px;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+.inputs input[type=range]:focus {
+  outline: none;
+}
+
+.inputs input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 14px;
+  width: 14px;
+  border-radius: 10px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5px;
+}
+
+.inputs text{
+  float: right;
+  display: block;
+  position: static;
+}

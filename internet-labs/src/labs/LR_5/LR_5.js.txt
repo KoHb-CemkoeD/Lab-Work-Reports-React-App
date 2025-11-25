@@ -1,0 +1,111 @@
+import React from 'react'
+import $ from 'jquery'
+import './LR_5.css'
+import logo from './logo.svg'
+import raw_css from './LR_5.css.txt'
+import raw_jsx from './LR_5.js.txt'
+
+
+class LR_5 extends React.Component {
+  componentDidMount() {
+    $("form input[type=radio]:first").prop('checked', true);
+    $("#wishes").hide()
+
+    $(".labContentDiv img").on("click", function(){
+      $(this).animate({opacity: "0"}, "fast");
+    });
+
+    $("#startMoving").on("click", function(){   
+      $("#movingBlock").width(100).height(100)
+      $("#movingBlock").css("margin-bottom", "255px");
+      $("#movingBlock").animate({
+        left: "+50px",
+        top: "+250px",
+        width: "10px",
+        height: "10px",
+        marginTop: "90px",
+        fontSize: 2
+      }, 500)
+      .animate({
+        left: "0px",
+        top: "50px",
+        width: "200px",
+        height: "200px",
+        marginTop: "0px",
+        marginBottom: "155px",
+        fontSize: 16
+      }, 500);
+    });
+
+    $("#yesAnswer").on("click", function(){
+      $("form button:first").show();
+      $("form button:last").hide();
+      $("#wishes").hide()
+    });
+    $("#noAnswer").on("click", function(){
+      $("form button:first").hide();
+      $("form button:last").show();
+      $("#wishes").hide()
+    });
+    $("#maybeAnswer").on("click", function(){
+      $("form button:first").show();
+      $("form button:last").show();
+      $("#wishes").show()
+    });
+  }
+  
+  render() {
+    return (
+      <div>
+        <div>
+          <p className="task"><b>Вариант 7.</b></p> 
+          <p><b>Задание 1: </b>
+          По нажатию на изображение скрывать его.</p>
+          <p><b>Задание 2: </b>
+          Блок красного цвета с текстом внутри, двигается сверху вниз,
+          уменьшается, текст внутри уменьшается, затем блок
+          возвращается вверх и увеличивается до размеров больше, чем
+          изначальные.</p>
+          <p><b>Задание 3: </b>
+          Добавить на страницу форму, содержащую несколько элементов формы,
+          при этом при выборе определенного значения в одном элементе делать недоступным другой элемент.</p>
+          <p><b>Исходный код: </b><a href={ raw_jsx } target="_blank">JSX</a> <a href={ raw_css } target="_blank">CSS</a></p>
+          <p><b>Результат выполнения:</b></p>
+        </div>
+        <div className="labContentDiv">
+          <div id="oneSpace">
+            <img id="hiddenImage" src={ logo } width="200px"></img>
+          </div>   
+          <div id="oneSpace">
+            <button type="button" id="startMoving" className="castButton">Начать движение</button>
+            <div id="movingBlock">&nbsp;Some Text</div>
+          </div>          
+          <div id="oneSpace">
+            <form>
+              <p>Вы согласны с политикой использования?</p>
+              <div>
+                <input type="radio" id="yesAnswer" name="answer" value="yes"></input>
+                <label for="yesAnswer">Да</label>
+
+                <input type="radio" id="noAnswer" name="answer" value="no"></input>
+                <label for="noAnswer">Нет</label>
+
+                <input type="radio" id="maybeAnswer" name="answer" value="maybe"></input>
+                <label for="maybeAnswer">Возможно</label>
+              </div>
+              <div>
+                <input type="text" id="wishes" name="wishes" placeholder="Введите Ваши пожелания.."></input>
+              </div>
+              <div>
+                <button type="submit" className="castButton" onClick = { e => e.preventDefault() }>Подтвердить</button>
+                <button type="reset" className="castButton">Отмена</button>
+              </div>
+            </form>
+          </div>  
+        </div>    
+      </div>
+   )
+  }
+}
+
+export default LR_5

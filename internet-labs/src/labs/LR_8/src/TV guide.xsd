@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="TVGUIDE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="SHOW"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SHOW">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DATE"/>
+        <xs:element ref="CHANELL"/>
+        <xs:element ref="JANRE"/>
+        <xs:element ref="STARTTIME"/>
+        <xs:element ref="DURATION"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="Name"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DATE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DAY"/>
+        <xs:element ref="MONTH"/>
+        <xs:element ref="YEAR"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DAY">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:byte">
+          <xs:attribute type="xs:string" name="DayOfWeek"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MONTH" type="xs:byte"/>
+  <xs:element name="YEAR" type="xs:short"/>
+  <xs:element name="CHANELL" type="xs:string"/>
+  <xs:element name="JANRE" type="xs:string"/>
+  <xs:element name="STARTTIME" type="xs:string"/>
+  <xs:element name="DURATION" type="xs:string"/>
+</xs:schema>

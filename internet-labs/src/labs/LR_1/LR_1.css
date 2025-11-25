@@ -1,0 +1,70 @@
+.labContentDiv .AppHeader{
+  width: 78.5%;
+  float: right;
+  text-align: center;
+  font-size: calc(2px + 2vmin);
+  font-family: 'Times New Roman', Times, serif;
+  border-bottom: solid;
+  line-height: 1.25;
+}
+
+.labContentDiv .AppHeader b{
+  font-size: calc(2px + 2vmin);
+  line-height: 1.5;
+}
+
+.labContentDiv .AppHeader b{
+  font-size: calc(7px + 2vmin);
+}
+
+.labContentDiv .ListLabs{
+  text-underline-position: inherit;
+  position: static;
+  width: 20%;
+  height: 100%;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  font-size: calc(5px + 2vmin);
+  text-align: center;
+}
+
+.labContentDiv .ListLabs ul {
+  list-style-type: none;
+  padding: 10px;
+  text-indent: 0px;
+
+  list-style-type: none;
+  width: 90%;
+  background-color: white;
+  font-weight:bold;
+
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.labContentDiv .ListLabs li {
+  text-align: left;
+  font-size: calc(5px + 1vmin);
+  padding: 2px 14px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.labContentDiv .ListLabs li:last-child {
+  border-bottom: none;
+}
+
+.labContentDiv .ListLabs li:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+
+}
+
+.labContentDiv .ContentLab{
+  text-underline-position: inherit;
+  position: static;
+  float: right;
+  width: 76%;
+  margin-left: 1%;
+  margin-right: 1%;
+}

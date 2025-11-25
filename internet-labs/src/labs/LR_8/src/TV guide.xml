@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<!-- Имя файла: TV guide.xml -->
+<TVGUIDE>
+  <SHOW Name="Storage Wars">
+    <DATE>
+	  <DAY DayOfWeek="Monday">15</DAY>
+	  <MONTH>03</MONTH>
+	  <YEAR>2021</YEAR>
+	</DATE>
+    <CHANELL>AMC</CHANELL>
+    <JANRE>REALITY</JANRE>
+    <STARTTIME>14:00</STARTTIME>
+    <DURATION>2 H</DURATION>
+  </SHOW>
+  <SHOW Name="House">
+    <DATE>
+	  <DAY DayOfWeek="Monday">15</DAY>
+	  <MONTH>03</MONTH>
+	  <YEAR>2021</YEAR>
+	</DATE>
+    <CHANELL>POP</CHANELL>
+    <JANRE>DRAMA</JANRE>
+    <STARTTIME>17:00</STARTTIME>
+    <DURATION>2 H 40 MIN</DURATION>
+  </SHOW>
+  <SHOW Name="NCIS New Orleans">
+    <DATE>
+	  <DAY DayOfWeek="Tuesday">16</DAY>
+	  <MONTH>03</MONTH>
+	  <YEAR>2021</YEAR>
+	</DATE>
+    <CHANELL>ION</CHANELL>
+    <JANRE>CRIME DRAMA</JANRE>
+    <STARTTIME>19:00</STARTTIME>
+    <DURATION>1 H</DURATION>
+  </SHOW>
+  <SHOW Name="Nightmare on Elm Street">
+    <DATE>
+	  <DAY DayOfWeek="Tuesday">16</DAY>
+	  <MONTH>03</MONTH>
+	  <YEAR>2021</YEAR>
+	</DATE>
+    <CHANELL>REELZ</CHANELL>
+    <JANRE>DOCUMENTARY</JANRE>
+    <STARTTIME>23:00</STARTTIME>
+    <DURATION>1 H 35 MIN</DURATION>
+  </SHOW>
+  <SHOW Name="How the Universe Works">
+    <DATE>
+	  <DAY DayOfWeek="Wednesday">17</DAY>
+	  <MONTH>03</MONTH>
+	  <YEAR>2021</YEAR>
+	</DATE>
+    <CHANELL>SCI</CHANELL>
+    <JANRE>SCIENCE</JANRE>
+    <STARTTIME>10:45</STARTTIME>
+    <DURATION>2 H 15 MIN</DURATION>
+  </SHOW>
+  <SHOW Name="The King of Queens">
+    <DATE>
+	  <DAY DayOfWeek="Wednesday">17</DAY>
+	  <MONTH>03</MONTH>
+	  <YEAR>2021</YEAR>
+	</DATE>
+    <CHANELL>CNBC</CHANELL>
+    <JANRE>COMEDY</JANRE>
+    <STARTTIME>22:30</STARTTIME>
+    <DURATION>30 MIN</DURATION>
+  </SHOW>
+  <SHOW Name="Hairy Bikers: Route 66">
+    <DATE>
+	  <DAY DayOfWeek="Thursday">18</DAY>
+	  <MONTH>03</MONTH>
+	  <YEAR>2021</YEAR>
+	</DATE>
+    <CHANELL>BBC Two</CHANELL>
+    <JANRE>LIFESTYLE</JANRE>
+    <STARTTIME>19:00</STARTTIME>
+    <DURATION>1 H</DURATION>
+  </SHOW>  
+  <SHOW Name="Star Trek: The Next Generation">
+    <DATE>
+	  <DAY DayOfWeek="Thursday">18</DAY>
+	  <MONTH>03</MONTH>
+	  <YEAR>2021</YEAR>
+	</DATE>
+    <CHANELL>BBC</CHANELL>
+    <JANRE>ADVENTURE</JANRE>
+    <STARTTIME>21:00</STARTTIME>
+    <DURATION>1 H 30 MIN</DURATION>
+  </SHOW>
+  <SHOW Name="Speak for Yourself">
+    <DATE>
+	  <DAY DayOfWeek="Friday">19</DAY>
+	  <MONTH>03</MONTH>
+	  <YEAR>2021</YEAR>
+	</DATE>
+    <CHANELL>F51</CHANELL>
+    <JANRE>SPORT</JANRE>
+    <STARTTIME>7:30</STARTTIME>
+    <DURATION>2 H</DURATION>
+  </SHOW>
+  <SHOW Name="Red Sparrow">
+    <DATE>
+	  <DAY DayOfWeek="Friday">19</DAY>
+	  <MONTH>03</MONTH>
+	  <YEAR>2021</YEAR>
+	</DATE>
+    <CHANELL>FXM</CHANELL>
+    <JANRE>DRAMA</JANRE>
+    <STARTTIME>23:30</STARTTIME>
+    <DURATION>2 H 50 MIN</DURATION>
+  </SHOW>
+  <SHOW Name="PGA Tour Golf">
+    <DATE>
+	  <DAY DayOfWeek="Saturday">20</DAY>
+	  <MONTH>03</MONTH>
+	  <YEAR>2021</YEAR>
+	</DATE>
+    <CHANELL>GOLF</CHANELL>
+    <JANRE>SPORT</JANRE>
+    <STARTTIME>13:00</STARTTIME>
+    <DURATION>1 H 30 MIN</DURATION>
+  </SHOW>  
+  <SHOW Name="Property Brothers: Forever Home">
+    <DATE>
+	  <DAY DayOfWeek="Saturday">20</DAY>
+	  <MONTH>03</MONTH>
+	  <YEAR>2021</YEAR>
+	</DATE>
+    <CHANELL>HGTV</CHANELL>
+    <JANRE>REALITY</JANRE>
+    <STARTTIME>18:30</STARTTIME>
+    <DURATION>1 H 30 MIN</DURATION>
+  </SHOW>
+  <SHOW Name="SpongeBob SquarePants">
+    <DATE>
+	  <DAY DayOfWeek="Sunday">21</DAY>
+	  <MONTH>03</MONTH>
+	  <YEAR>2021</YEAR>
+	</DATE>
+    <CHANELL>NIK</CHANELL>
+    <JANRE>FAMILY</JANRE>
+    <STARTTIME>9:25</STARTTIME>
+    <DURATION>30 MIN</DURATION>
+  </SHOW>
+  <SHOW Name="Killer Couples">
+    <DATE>
+	  <DAY DayOfWeek="Sunday">21</DAY>
+	  <MONTH>03</MONTH>
+	  <YEAR>2021</YEAR>
+	</DATE>
+    <CHANELL>OXYGN</CHANELL>
+    <JANRE>DOCUMENTARY</JANRE>
+    <STARTTIME>18:00</STARTTIME>
+    <DURATION>1 H 45 MIN</DURATION>
+  </SHOW>
+</TVGUIDE>
