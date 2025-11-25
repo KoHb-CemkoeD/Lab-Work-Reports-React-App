@@ -15,7 +15,6 @@ The app presents a list of laboratory works on the left and dynamically loads th
 It uses class-based React components and custom styling to provide a clean and organized user interface.
 
 The key component of the system is `App.js`, which manages navigation, current selection, and rendering of the appropriate lab content.
-
 ---
 
 ## 🧩 Main Features
